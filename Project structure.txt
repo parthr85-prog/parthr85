@@ -1,0 +1,75 @@
+Buildo/
+├── app/
+│   ├── _layout.js
+│
+│   ├── (auth)/
+│   │   ├── login.js
+│   │   ├── otp.js
+│   │   ├── register-role.js
+│   │   ├── register-company.js
+│   │   ├── register-contractor.js
+│   │   ├── register-labour.js
+│
+│   ├── (subscription)/
+│   │   ├── plans.js
+│   │   ├── payment.js
+│
+│   ├── (tabs)/
+│   │   ├── _layout.js
+│   │   ├── dashboard.js
+│   │   ├── listings.js
+│   │   ├── bids.js
+│   │   ├── chat.js
+│   │   ├── profile.js
+│
+│   ├── dashboards/
+│   │   ├── company.js
+│   │   ├── contractor.js
+│   │   ├── labour.js
+│
+│   ├── listings/
+│   │   ├── create.js
+│   │   ├── my-listings.js
+│   │   ├── all-listings.js
+│   │   ├── details.js
+│
+│   ├── bids/
+│   │   ├── place.js
+│   │   ├── received.js
+│   │   ├── assign.js
+│
+│   ├── chat/
+│   │   ├── chat-list.js
+│   │   ├── chat-room.js
+│
+│   ├── profile/
+│   │   ├── view.js
+│   │   ├── edit.js
+│
+│   └── admin/
+│       ├── dashboard.js
+│       ├── users.js
+│       ├── listings.js
+│
+├── firebase/
+│   ├── firebaseConfig.js
+│   ├── auth.js
+│   ├── firestore.js
+│   ├── storage.js
+│
+├── components/
+│   ├── Card.js
+│   ├── Button.js
+│   ├── Input.js
+│   ├── Header.js
+│
+├── constants/
+│   ├── colors.js
+│   ├── roles.js
+│
+├── utils/
+│   ├── validators.js
+│   ├── subscriptionGuard.js
+│
+├── app.json
+├── package.json

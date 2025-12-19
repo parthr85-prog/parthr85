@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "Buildo",
+    "slug": "Buildo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "buildo",
+    "userInterfaceStyle": "automatic",
+
+    "newArchEnabled": false,
+
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/images/android-icon-foreground.png"
+      },
+      "package": "com.parthr85.Buildo"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "33299dd3-0b7b-4950-9433-f80c0ee5475e"
+      }
+    }
+  }
+}

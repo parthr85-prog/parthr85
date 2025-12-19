@@ -1,0 +1,17 @@
+{
+  "cli": {
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "env": {
+        "EXPO_USE_NEW_ARCH": "false"
+      },
+      "android": {
+        "node": "18.20.4"
+      }
+    }
+  }
+}
