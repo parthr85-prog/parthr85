@@ -8,16 +8,14 @@
     "scheme": "buildo",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": false,
+    "updates": {
+      "enabled": false
+    },
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.parthr85.Buildo",
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false
-      }
-    },
-    "expo": {
-      "updates": {
-        "enabled": false
       }
     },
     "android": {
